@@ -47,3 +47,6 @@ logs/
 # Temporary files
 *.tmp
 .tmp/
+
+# Documentação local
+Documentação - guia para desenvolvimento/
