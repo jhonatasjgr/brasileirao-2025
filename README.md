@@ -208,19 +208,7 @@ brasileirao-2025/
 │   ├── cartola/                          # 38 rodadas (arquivos)
 │   └── cartola_processado/               # Dados processados
 │
-├── Documentação - guia para desenvolvimento/
-│   ├── documentacao inicial.md           # Requisitos iniciais
-│   ├── documentacao node.md              # Backend spec
-│   └── documentacao flutter.md           # Frontend spec
-│
 ├── README.md                          # ← VOCÊ ESTÁ AQUI
-├── QUICK_START.md                     # Quick start (5 min)
-├── PROJECT_COMPLETION.md              # Status final
-├── FRONTEND_SUMMARY.md                # Resumo frontend
-├── INTEGRATION_GUIDE.md               # Guia integração
-├── PROJECT_VISUALIZATION.md           # Diagramas ASCII
-├── FILE_INVENTORY.md                  # Inventário de arquivos
-└── INDEX.md                           # Índice de documentos
 ```
 
 ---
@@ -561,13 +549,6 @@ Tela (exibe resultado)
 | **README.md** (raiz) | Este arquivo | Documentação geral completa |
 | **frontend/README.md** | 550 linhas | Guia detalhado do frontend (arquitetura + build) |
 | **backend/README.md** | 1.500+ linhas | Documentação completa da API + Swagger |
-| **QUICK_START.md** | 80 linhas | Começar em 5 minutos |
-| **INTEGRATION_GUIDE.md** | 430 linhas | Guia de integração frontend+backend |
-| **PROJECT_COMPLETION.md** | 430 linhas | Status final do projeto |
-| **FRONTEND_SUMMARY.md** | 370 linhas | Resumo técnico do frontend |
-| **PROJECT_VISUALIZATION.md** | 680 linhas | Diagramas ASCII e fluxos |
-| **FILE_INVENTORY.md** | 500 linhas | Inventário de todos os arquivos |
-| **INDEX.md** | 600 linhas | Índice navegável de documentação |
 | **backend/AUDITORIA.md** | 300 linhas | Relatório de testes e validação |
 
 ### 🔍 Por onde começar?
@@ -575,13 +556,8 @@ Tela (exibe resultado)
 ```
 Se você quer...                    → Leia
 ─────────────────────────────────────────────────
-Começar agora (5 min)              → QUICK_START.md
-Entender a arquitetura             → PROJECT_VISUALIZATION.md
-Integrar frontend + backend        → INTEGRATION_GUIDE.md
 Guia detalhado do frontend         → frontend/README.md
 Documentação da API                → backend/README.md
-Ver o que foi criado               → FILE_INVENTORY.md
-Navegar toda documentação          → INDEX.md
 ```
 
 ---
@@ -849,4 +825,4 @@ Desenvolvido como parte do projeto **Brasileirão 2025 - Análise de Desempenho*
 
 **🎉 Projeto Completo e Pronto para Uso!**
 
-Para começar em 5 minutos, acesse [QUICK_START.md](QUICK_START.md).
+Comece acessando [frontend/README.md](frontend/README.md) ou [backend/README.md](backend/README.md).
