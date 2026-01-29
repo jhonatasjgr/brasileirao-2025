@@ -324,7 +324,7 @@ brasileirao-2025/
 
 ---
 
-### 🔌 Backend API (17 Endpoints)
+### Backend API (17 Endpoints)
 
 #### Endpoints de Jogadores (3)
 
@@ -542,7 +542,7 @@ Tela (exibe resultado)
 
 ## Documentação Detalhada
 
-### 📖 Arquivos de Documentação
+### Arquivos de Documentação
 
 | Arquivo | Tamanho | Conteúdo |
 |---------|---------|----------|
@@ -551,7 +551,7 @@ Tela (exibe resultado)
 | **backend/README.md** | 1.500+ linhas | Documentação completa da API + Swagger |
 | **backend/AUDITORIA.md** | 300 linhas | Relatório de testes e validação |
 
-### 🔍 Por onde começar?
+### Por onde começar?
 
 ```
 Se você quer...                    → Leia
@@ -564,7 +564,7 @@ Documentação da API                → backend/README.md
 
 ## Troubleshooting
 
-### ❌ "Failed to connect to localhost"
+### "Failed to connect to localhost"
 
 **Causa**: Backend não está rodando
 
@@ -574,7 +574,7 @@ cd backend
 npm start
 ```
 
-### ❌ "Connection refused" (erro 111 ou 10061)
+### "Connection refused" (erro 111 ou 10061)
 
 **Causa**: Backend rodando em porta diferente
 
@@ -583,7 +583,7 @@ npm start
 grep "listen\|PORT" backend/src/server.js
 ```
 
-### ❌ Emulador Android não conecta
+### Emulador Android não conecta
 
 **Causa**: Localhost refere-se ao emulador, não ao host
 
@@ -592,13 +592,13 @@ grep "listen\|PORT" backend/src/server.js
 static const String baseUrl = 'http://10.0.2.2:3000';
 ```
 
-### ❌ "Image failed to load"
+### "Image failed to load"
 
 **Causa**: URLs de imagens inacessíveis ou sem internet
 
 **Solução**: Verificar conexão e usar `cached_network_image`
 
-### ❌ Erro ao rodar Flutter
+### Erro ao rodar Flutter
 
 ```bash
 # Limpar build
@@ -611,7 +611,7 @@ flutter pub get
 flutter run -v
 ```
 
-### ❌ "Invalid JSON response"
+### "Invalid JSON response"
 
 **Causa**: Resposta do backend não é JSON válido
 
@@ -779,14 +779,14 @@ STATUS
 
 ## Suporte e Contribuição
 
-### 📧 Suporte
+### Suporte
 
 Para dúvidas ou reportar bugs:
 1. Consulte a [Documentação Detalhada](#documentação-detalhada)
 2. Verifique o [Troubleshooting](#troubleshooting)
 3. Abra uma issue no repositório
 
-### 🤝 Contribuição
+### Contribuição
 
 1. Fork o repositório
 2. Crie uma branch (`git checkout -b feature/AmazingFeature`)
